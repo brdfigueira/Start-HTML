@@ -1,0 +1,192 @@
+<!--
+    Anatomia das tags
+
+    -Abertura de tag
+    -Fechamento de tag
+    -Conteúdo
+    -Elementos
+-->
+<!--Abertura da tag, conteudo e fechamentp-->
+<h1>Abertura da Tag</h1>
+<!--Exemplo-->
+<!--Elementos Vazios-->
+<img src="" alt="">
+<!--Exemplo Elemento Vazio não tem fechamento-->
+<input type="text">
+
+<!--
+    ATRIBUTOS HTML
+    -informações extras
+    -configurações
+-->
+<img src="imagem.png" alt="texto alternativo">
+<!--Informação pura e não somente informação extra-->
+<img src="Conteudo" alt="">
+<!--
+    Atributos Booleanos
+    -não precisam de conteúdo
+-->
+<input type="text" disabled><!-- Booleano é sempre verdadeiro ou falso-->
+
+<!--
+    Aspas
+    -omissão
+    -simples
+    -duplas
+-->
+<a href="https://google.com">O PAI SABE</a>
+<!--Evitar sempre as aspas simples para não bugar o código-->
+
+
+
+<!--
+    Atributos Globais mais utilizados
+    -class
+    -contendeditable
+    -data-*
+    -hidden
+    -id
+    -style
+    -tabindex
+    -title
+-->
+
+<!--atributos globais são a todas as tags-->
+<div class="Carrinho" contenteditable="true" id="kart2">Conteúdo
+    <!--Elementos ficam aqui dentro-->
+    <!--Elemento pode ser editado-->
+</div>
+
+<div class="Carrinho" data-id="" id="kart1" style="color:red">Conteúdo
+    <!--Elementos ficam aqui dentro / nunca separar o data por espaço / evitar repitir nomes no id-->
+</div>
+
+<div class="Carrinho" hidden>Conteúdo
+    <!--Elementos ficam aqui dentro-->
+</div>
+<!--Posso colocar mais de um elemento que tenha a mesma classe carrinho, pois podem ter atributos diferentes-->
+<!--Não usaremos atributo style diretamente nunca tag, geralmente usaremos as classes e os ids e classes para trabalhar os arquivos externos e css fora do html-->
+
+<div tabindex="1">
+    TEXTO
+</div>
+
+<div tabindex="2">
+    TEXTO
+</div>
+
+<div tabindex="3">
+    TEXTO
+</div>
+<!--Toda vez que usar o tab para navegar ele te leva para o tabindex sequencial-->
+
+
+<div title="Coisas a mais">
+    Título
+</div>
+<!--Title mostra descrições sobre a tag se descansar o mouse sobre ele-->
+<!--developer.mozilla.org possui mais atributos globais-->
+<b><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes">
+        MAIS ATRIBUTOS GLOBAIS</a></b>
+
+
+<!--
+    Aninhamento de tags
+
+    -Hierarquia
+    -Fluxo
+    -Posicionamento dos elementos
+-->
+
+
+
+<p>
+     Vou <b><em>escrever</em> um parágrafo
+</p></b>
+<p>
+    Esse é um novo paragrafo <br> Aqui outro
+</p>
+</div>
+<!--Observar para não fechar as tags no lugar errado e preste atenção antes de quebrar a linha-->
+
+<!--
+    Vamos praticar
+
+    Escrever 2 parágrafos, dando ênfase e
+    importância para algumas palavras,
+    e adicione um link de saiba mais.
+
+    -Use a tag *em* para ênfase
+    -Use a tag strong para importância
+    -O link pode levar para o google
+-->
+
+<p>Sobre <em>HTML</em> devemos entender que tudo que for necessario podemos encontrar no <strong>Docs</strong>.</p>
+    
+<p>Caso quiser pode pesquisar por aqui: <a href="https://google.com.br">Saiba mais!</a></p>
+
+<!--
+    Conteúdo do texto e 
+    caracteres reservados
+-->
+
+<P>
+    &nbsp;<br> <!--Abre espaço extra-->
+    <!-- Uso e troca de caracteres reservados com &-->
+    &lt;<br>
+    &gt;<br>
+    &amp;<br>
+    &apos;<br>
+    Os espaços
+
+    que colocamos
+
+    além das quebras de linhas são 
+    ignorados. <br>Com excessão do uso da tag break.
+</P>
+
+<!--
+    Anatomia de um documento HTML
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
