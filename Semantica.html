@@ -1,8 +1,14 @@
 <!--
-    Semântica
+    *Semântica:
+    1. disciplina da linguística que se ocupa d significação das palavras e expressões linguísticas bem como das relações de sentido que estas estabelecem entre si.
+                                *meudicionario.org*
 
-    -Dar significado
-    -Elementos Semânticos
+                                #Percurso#
+
+            Semântica é usado para dar significado a seu documento.
+                -Elementos Semânticos
+                -Acessibilidade
+                -Web Scraping
 -->
 
 <!--
@@ -24,4 +30,56 @@
     -summary
     -time
 -->
+
+<!--
+    #DEFINIÇÃO E EXEMPLO#
+
+    -> Sem semântica
+        <body>
+            <div>...</div>          (elemento genérico)
+            <div>...</div>          (elemento genérico)
+            <div>...</div>          (elemento genérico)
+        </body>    
+
+    -> Com semântica
+        <body>
+            <header>...</header>    (cabeçalho)
+            <main>...</main>        (Conteudo principal)
+            <footer>...</footer>    (rodapé)
+        </body>
+
+        A definição semântica antes do html5, para definir significado ao documento era usado a div e class (class que na verdade seria classe css). 
+        A class da uma flexibilidade que não é interessante de se ter, pois ela aceita qualquer nome de classe.
+
+                #Exemplo padronizado#
+        <body>
+            <div class:"header">...</div>
+            <div class:"main">...</div>
+            <div class:"footer">...</div>
+        </body>
+        
+                #Exemplo sem padrão#
+        <body>
+            <div class:"cabecalho">...</div>    (flexibilidade)
+            <div class:"principal">...</div>    (flexibilidade)        
+            <div class:"rodapé">...</div>       (flexibilidade)
+       </body>  
+       
+       *LEMBRE QUE SEU CÓDIGO HTML TAMBÉM SERÁ LIDO POR ROBOS, POR ISSO EVITAR USAR CLASS FORA DE PADRÃO*
+       -> Mas antes de falar que não quer que nenhum robo leia seus htmls, lembre do ponto acessibilidade. Temos os robos que são leitores de telas, que servem para que pessoas com necessidades especiais possam acessar seu site, então por isso que manter o padrão é importante, e manter as tags para ele entender o contexto e ler corretamente.
+       
+    -->
+
+
+    <!--ACESSIBILIDADE
+        É algo importante, que orgão de padrão da web em comitê, existe o WAI (Web Acessibility Iniciative)
+        para que todos tenham acesso a seus conteúdos e não excluir ninguém.
+
+        NVDA é um leitor de tela que iremos usar para o exemplo de acessibilidade.
+    -->
+
+    <!--WEB SCRAPING
+    
+    -->
+
 
